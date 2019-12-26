@@ -1,11 +1,12 @@
 def square_array(array)
   # your code here
   i = 0 
-  new_array = []
+  square_array = []
   while i < array.length do
-    new_array << (array[i]**2) 
+    square_array << (array[i]**2)
     i += 1 
-  end 
-    new_array 
+  end
+  square_array
+ 
 
 end
